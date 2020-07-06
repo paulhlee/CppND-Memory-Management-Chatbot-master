@@ -75,7 +75,7 @@ ChatBot& ChatBot::operator=(const ChatBot &source){
     }
      // 4 : move constructor
     ChatBot::ChatBot(ChatBot &&source){
-    std::cout<<"move constructor"<< std::endl;
+    std::cout<<"Chatbot Move Constructor"<< std::endl;
     _image = source._image;
     _chatLogic = source._chatLogic;
     _rootNode = source._rootNode;
@@ -87,6 +87,8 @@ ChatBot& ChatBot::operator=(const ChatBot &source){
     }
     // 5 : move assignment operator
     ChatBot& ChatBot::operator=(ChatBot &&source){
+    std::cout<<"Chatbot Move Assignment Operator"<< std::endl;
+
     if (this == &source){
         return *this;
     }
