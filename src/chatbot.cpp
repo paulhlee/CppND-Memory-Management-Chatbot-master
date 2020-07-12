@@ -51,9 +51,9 @@ ChatBot::~ChatBot()
 ChatBot::ChatBot(const ChatBot &source){
     std::cout<<"copy constructor"<< std::endl;
     _image = new wxBitmap();
-    *_image = *source._image;
+    _image = source._image;
     _chatLogic = source._chatLogic;
-    *_rootNode = *source._rootNode;
+    _rootNode = source._rootNode;
     
 }
 
@@ -68,9 +68,9 @@ ChatBot& ChatBot::operator=(const ChatBot &source){
         _image = NULL;
     }
     _image = new wxBitmap();
-    *_image = *source._image;
+    _image = source._image;
     _chatLogic = source._chatLogic;
-    *_rootNode = *source._rootNode;
+    _rootNode = source._rootNode;
     return *this;
     }
      // 4 : move constructor
