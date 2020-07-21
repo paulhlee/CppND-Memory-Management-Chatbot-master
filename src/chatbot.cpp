@@ -99,6 +99,8 @@ ChatBot& ChatBot::operator=(const ChatBot &source){
     }
     _image = source._image;
     _chatLogic = source._chatLogic;
+    _chatLogic->SetChatbotHandle(this);
+    source._chatLogic = nullptr; 
     _rootNode = source._rootNode;
 
     source._image = NULL;
