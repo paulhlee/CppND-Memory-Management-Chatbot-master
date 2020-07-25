@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/root/CppND-Memory-Management-Chatbot-master/src/chatbot.cpp
+iostream
+-
+random
+-
+algorithm
+-
+ctime
+-
+chatlogic.h
+/root/CppND-Memory-Management-Chatbot-master/src/chatlogic.h
+graphnode.h
+/root/CppND-Memory-Management-Chatbot-master/src/graphnode.h
+graphedge.h
+/root/CppND-Memory-Management-Chatbot-master/src/graphedge.h
+chatbot.h
+/root/CppND-Memory-Management-Chatbot-master/src/chatbot.h
+
 /root/CppND-Memory-Management-Chatbot-master/src/chatbot.h
 wx/bitmap.h
 -
@@ -52,11 +70,23 @@ chatgui.h
 memory
 -
 
+/root/CppND-Memory-Management-Chatbot-master/src/graphedge.cpp
+graphnode.h
+/root/CppND-Memory-Management-Chatbot-master/src/graphnode.h
+graphedge.h
+/root/CppND-Memory-Management-Chatbot-master/src/graphedge.h
+
 /root/CppND-Memory-Management-Chatbot-master/src/graphedge.h
 vector
 -
 string
 -
+
+/root/CppND-Memory-Management-Chatbot-master/src/graphnode.cpp
+graphedge.h
+/root/CppND-Memory-Management-Chatbot-master/src/graphedge.h
+graphnode.h
+/root/CppND-Memory-Management-Chatbot-master/src/graphnode.h
 
 /root/CppND-Memory-Management-Chatbot-master/src/graphnode.h
 vector
