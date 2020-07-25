@@ -132,7 +132,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
                         // create new element if ID does not yet exist
                         if (newNode == _nodes.end())
                         {
-                            _nodes.emplace_back(std::make_unique<GraphNode>(id));
+                            _nodes.push_back(std::make_unique<GraphNode>(id));
                             newNode = _nodes.end() - 1; // get iterator to last element
 
                             // add all answers to current node
@@ -222,8 +222,10 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
     // rootNode->MoveChatbotHere(_chatBot);
 
     ChatBot localchatbot("../images/chatbot.png");
+    // SetChatbotHandle(&localchatbot);
     localchatbot.SetChatLogicHandle(this);
     localchatbot.SetRootNode(rootNode);
+    _chatBot = &localchatbot;
     rootNode->MoveChatbotHere(std::move(localchatbot));
 
 

@@ -34,6 +34,7 @@ public:
     ChatBot(ChatBot &&source); // 4 : move constructor
     ChatBot &operator=(ChatBot &&source); // 5 : move assignment operator
     ////
+    ChatLogic * GetChatLogicHandle() {return _chatLogic;}
     //// EOF STUDENT CODE
 
     // getters / setters
