@@ -36,30 +36,6 @@ memory
 wx/wx.h
 -
 
-/root/CppND-Memory-Management-Chatbot-master/src/chatlogic.cpp
-fstream
--
-sstream
--
-iostream
--
-vector
--
-iterator
--
-tuple
--
-algorithm
--
-graphedge.h
-/root/CppND-Memory-Management-Chatbot-master/src/graphedge.h
-graphnode.h
-/root/CppND-Memory-Management-Chatbot-master/src/graphnode.h
-chatbot.h
-/root/CppND-Memory-Management-Chatbot-master/src/chatbot.h
-chatlogic.h
-/root/CppND-Memory-Management-Chatbot-master/src/chatlogic.h
-
 /root/CppND-Memory-Management-Chatbot-master/src/chatlogic.h
 vector
 -
@@ -70,23 +46,11 @@ chatgui.h
 memory
 -
 
-/root/CppND-Memory-Management-Chatbot-master/src/graphedge.cpp
-graphnode.h
-/root/CppND-Memory-Management-Chatbot-master/src/graphnode.h
-graphedge.h
-/root/CppND-Memory-Management-Chatbot-master/src/graphedge.h
-
 /root/CppND-Memory-Management-Chatbot-master/src/graphedge.h
 vector
 -
 string
 -
-
-/root/CppND-Memory-Management-Chatbot-master/src/graphnode.cpp
-graphedge.h
-/root/CppND-Memory-Management-Chatbot-master/src/graphedge.h
-graphnode.h
-/root/CppND-Memory-Management-Chatbot-master/src/graphnode.h
 
 /root/CppND-Memory-Management-Chatbot-master/src/graphnode.h
 vector
